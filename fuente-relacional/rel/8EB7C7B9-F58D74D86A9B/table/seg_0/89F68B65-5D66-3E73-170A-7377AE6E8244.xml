@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="89F68B65-5D66-3E73-170A-7377AE6E8244" name="juega">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Equipo_id" id="5226209F-1F3C-85A0-5E52-3C37C36BBBA9">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE7AC988-764D-A92F-9978-9BBF915F54B9" referredColumn="CA52562D-8E9E-C3EC-116C-9D1D16EAAA93"/>
+</associations>
+</Column>
+<Column name="Jornada_id" id="F37344E8-FACB-9A35-907B-79CC99F50619">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D5D81EB-4AFD-8B38-B898-04D1B5DD6BB3" referredColumn="B20A4E97-BCB1-5AEE-32BE-406DC7D97BE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC059E19-D350-2302-E3C0-FFF1AE1C9A44" name="juega_PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5226209F-1F3C-85A0-5E52-3C37C36BBBA9"/>
+<colUsage columnID="F37344E8-FACB-9A35-907B-79CC99F50619"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BDEBB16-B0DE-7232-A37D-59886FF94EA7" name="FK_ASS_4">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>C83B022C-3F5C-0981-6BF4-320A7E7771D7</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5226209F-1F3C-85A0-5E52-3C37C36BBBA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="301592F8-A5B2-7EBF-B228-B6304D370F74" name="FK_ASS_7">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>C83B022C-3F5C-0981-6BF4-320A7E7771D7</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F37344E8-FACB-9A35-907B-79CC99F50619"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="A3469311-1CB1-FC78-B435-94AFC8B966AD" name="FKArc_1">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<ownerDesignName>Esport</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>11F4D31C-A43E-2497-8D11-3D86EC22DB3E</table>
+<fkeys>
+<fkeyID>8DDFE3B0-3576-2D08-B385-20743EB33CFA</fkeyID>
+<fkeyID>9375B68F-E8BA-8B47-9361-242070DDA1BE</fkeyID>
+<fkeyID>8B444EF2-6893-31CA-C904-9940753CE9C2</fkeyID>
+<fkeyID>DCAE64F0-FF3F-7B5C-7200-B3C514F5CD8D</fkeyID>
+</fkeys>
+</FKArc>

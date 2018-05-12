@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E6D9BC7-6765-FC37-5761-2D37C13F7FE4" name="Dueño">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:10:52 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>48B457BF-1E28-A5DD-0D86-9D78DA1C96AF</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ciudad" id="2CE64EB4-44AE-EF2F-53A7-0DEBF9836AE9">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:11:14 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

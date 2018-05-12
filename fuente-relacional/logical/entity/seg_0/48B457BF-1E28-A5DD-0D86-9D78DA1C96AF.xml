@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="48B457BF-1E28-A5DD-0D86-9D78DA1C96AF" name="Persona">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 12:51:27 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="849ACE5C-E02C-7102-BB59-A2757CE5EF9C">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 12:51:46 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="C60D427C-E6BC-1D4B-EC8F-E49A6A8F363F">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 12:56:13 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pass" id="AEFC1FBD-6A2A-7BEE-746E-DF54BEBAAD3B">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 12:57:26 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="8AE179A7-8E3D-B2A6-DE47-14B2F6DB82D4">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:07:38 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellido" id="46BE56E2-12CF-A2AC-131A-23A35FE9C9DE">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:08:22 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5B9C842-4F80-6AF1-E1FD-FB319A4F9EAF" name="Persona PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 12:56:09 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>849ACE5C-E02C-7102-BB59-A2757CE5EF9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

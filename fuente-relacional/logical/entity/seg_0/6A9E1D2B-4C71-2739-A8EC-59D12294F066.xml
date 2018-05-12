@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A9E1D2B-4C71-2739-A8EC-59D12294F066" name="Jugador">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:24:49 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="D179208D-05D8-208B-75F3-7704C430A824">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:24:58 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="6509ED02-7F2C-BD33-9D6E-6A07DCFACC35">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:25:16 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nick_name" id="518B4DE4-D4E3-F6AD-252A-3BEB40E5784B">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:25:59 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sueldo" id="FCC60A74-E015-68F1-D71F-DD6792043943">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:26:29 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Puesto" id="1E5F8C67-B81B-A381-3AB8-2E4CBE6B0ABF">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:26:56 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="9B0E1B4D-E68C-A02B-84D3-612102F371F5">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-26 21:54:06 UTC</createdTime>
+<generatorID>15F18D4E-B441-8117-4774-2B480C482CEF</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<referedAttribute>E7E7FA35-CC47-B22F-F754-0483B41958A5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D178AF13-9AFF-9E86-719F-21ECD0DAA5A2" name="Jugador PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:25:09 UTC</createdTime>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D179208D-05D8-208B-75F3-7704C430A824</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

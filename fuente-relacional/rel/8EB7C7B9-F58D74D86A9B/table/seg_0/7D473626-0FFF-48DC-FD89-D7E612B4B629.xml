@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D473626-0FFF-48DC-FD89-D7E612B4B629" name="Administradorv1">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>FA174CDE-8D4C-ECFC-83F2-5DF4E097A150</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E4A89C1B-D2AB-305C-583A-3C4BBD04E492">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>849ACE5C-E02C-7102-BB59-A2757CE5EF9C</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCAE64F0-FF3F-7B5C-7200-B3C514F5CD8D" referredColumn="AA8CB808-186B-5172-51CB-8F637C63412D"/>
+</associations>
+</Column>
+<Column name="telefono" id="F5A14FA5-55F5-491F-A2F0-4D36A829E2E8">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>03D9450D-7524-7B3C-1AA9-4613683E48F5</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DC0005C-24A1-08C5-0868-E4789002803B" name="Administradorv1_PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>D5B9C842-4F80-6AF1-E1FD-FB319A4F9EAF</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4A89C1B-D2AB-305C-583A-3C4BBD04E492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5A98843-7351-C615-F8A9-2E9A0FE45696" name="Administradorv1_Persona_FK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>8D198B4C-57B8-371B-823E-D431E3A46194</generatorID>
+<ownerDesignName>fuente-relacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4A89C1B-D2AB-305C-583A-3C4BBD04E492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

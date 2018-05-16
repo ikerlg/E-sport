@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D503405-6096-0D97-D435-4FC4D17E1707" name="Jugador">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:48 UTC</createdTime>
+<generatorID>6A9E1D2B-4C71-2739-A8EC-59D12294F066</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6E3B0359-6484-9953-FD69-C076728DCBDA">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:48 UTC</createdTime>
+<generatorID>D179208D-05D8-208B-75F3-7704C430A824</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="746C3AF9-B16C-757C-F45E-0BD6B55CC96D">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:48 UTC</createdTime>
+<generatorID>6509ED02-7F2C-BD33-9D6E-6A07DCFACC35</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nick_name" id="F08C12FB-5B75-C97C-92A8-498073406F6B">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>518B4DE4-D4E3-F6AD-252A-3BEB40E5784B</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sueldo" id="A7F39184-6BE4-656D-5376-0BC30BD49FEC">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>FCC60A74-E015-68F1-D71F-DD6792043943</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Puesto" id="F3DF0A02-0A95-87FA-4420-4826C27BDF96">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>1E5F8C67-B81B-A381-3AB8-2E4CBE6B0ABF</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Equipo_id" id="64CFE2B2-3803-ED30-2EE2-52D18C07B192">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>9B0E1B4D-E68C-A02B-84D3-612102F371F5</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5FE54B5-C8BB-B49E-42CE-D47F5927CAE6" referredColumn="CA52562D-8E9E-C3EC-116C-9D1D16EAAA93"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="756DC622-0C25-D05B-791F-19AC65A07B26" name="Jugador_PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>D178AF13-9AFF-9E86-719F-21ECD0DAA5A2</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E3B0359-6484-9953-FD69-C076728DCBDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11C48BF3-240B-6CEF-C377-492BF5AA76BB" name="Jugador_Equipo_FK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 19:05:41 UTC</createdTime>
+<generatorID>15F18D4E-B441-8117-4774-2B480C482CEF</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64CFE2B2-3803-ED30-2EE2-52D18C07B192"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="fuente-relacional" id="5E84A7A7-75D2-A1C7-95AE-CE9B3B7FEC5D" version="3.5">
-<createdBy>Iker</createdBy>
-<createdTime>2018-04-24 12:51:06 UTC</createdTime>
-<ownerDesignName>Esport</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>5E84A7A7-75D2-A1C7-95AE-CE9B3B7FEC5D</designId>
-</OSDM_Design>

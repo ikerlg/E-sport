@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6E8C7CB4-E0A6-6088-6E83-3CC2D8A80B82" name="Jornada">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:34:31 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="577705C5-32A5-1C04-B14F-CAAF7510FDF2">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:34:53 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="BF0177DF-72E7-404D-1037-B8AB98271284">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:35:15 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Puntos_local" id="134C96AE-8B32-6E0C-5F2A-1315385CABA6">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:36:52 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Puntos_visitante" id="41BF80E2-0D14-820F-4584-DD50E6943BC0">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 14:03:52 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero_partido" id="F364CF88-6958-F22B-55E0-0D42C9110B9B">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 18:39:51 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2567141A-D132-A5DB-D482-8B80B4C18EF0" name="Jornada PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:35:05 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>577705C5-32A5-1C04-B14F-CAAF7510FDF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="juega" directorySegmentName="seg_0" id="C83B022C-3F5C-0981-6BF4-320A7E7771D7">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 13:38:31 UTC</createdTime>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<targetPk>2567141A-D132-A5DB-D482-8B80B4C18EF0</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>101C6A9D-905A-C8C0-32B1-7B8070BE5AEE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E8C7CB4-E0A6-6088-6E83-3CC2D8A80B82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

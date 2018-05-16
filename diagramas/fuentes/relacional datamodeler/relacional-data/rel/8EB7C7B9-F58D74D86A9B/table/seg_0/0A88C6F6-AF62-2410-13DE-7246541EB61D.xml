@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A88C6F6-AF62-2410-13DE-7246541EB61D" name="Usuario">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>D06277A8-D685-CB0B-D687-1EDB003AD223</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FB58698D-6D8F-0591-5E1E-D32A56891F81">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>849ACE5C-E02C-7102-BB59-A2757CE5EF9C</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B444EF2-6893-31CA-C904-9940753CE9C2" referredColumn="AA8CB808-186B-5172-51CB-8F637C63412D"/>
+</associations>
+</Column>
+<Column name="Edad" id="0A3E263B-D45B-72BD-1775-EB5067F7D756">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>AD5E0A61-B07B-EA2A-2CA7-ACEC4ADA7DAD</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DE048FA-0FFE-7B9A-A9A5-F75DA5A181B0" name="Usuario_PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>D5B9C842-4F80-6AF1-E1FD-FB319A4F9EAF</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB58698D-6D8F-0591-5E1E-D32A56891F81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="836D985D-B672-45B8-1093-F86E2F299BE0" name="Usuario_Persona_FK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>4EBFB333-D1D9-D690-7AC5-F37DB7A78628</generatorID>
+<ownerDesignName>relacional-data</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB58698D-6D8F-0591-5E1E-D32A56891F81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

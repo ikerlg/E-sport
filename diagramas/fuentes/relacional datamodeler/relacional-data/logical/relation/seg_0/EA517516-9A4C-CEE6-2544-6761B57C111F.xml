@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="interactua" directorySegmentName="seg_0" id="EA517516-9A4C-CEE6-2544-6761B57C111F">
+<createdBy>Iker</createdBy>
+<createdTime>2018-05-12 18:35:15 UTC</createdTime>
+<ownerDesignName>relacional-data</ownerDesignName>
+<engineerTo>
+<item key="8EB7C7B9-80F3-8BAD-14C1-F58D74D86A9B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>48B457BF-1E28-A5DD-0D86-9D78DA1C96AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6E8C7CB4-E0A6-6088-6E83-3CC2D8A80B82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

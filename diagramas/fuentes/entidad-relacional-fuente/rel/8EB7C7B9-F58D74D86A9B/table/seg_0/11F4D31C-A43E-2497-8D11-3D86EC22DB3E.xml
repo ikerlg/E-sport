@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11F4D31C-A43E-2497-8D11-3D86EC22DB3E" name="Persona">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>48B457BF-1E28-A5DD-0D86-9D78DA1C96AF</generatorID>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AA8CB808-186B-5172-51CB-8F637C63412D">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>849ACE5C-E02C-7102-BB59-A2757CE5EF9C</generatorID>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="2EF623B5-32C7-A703-2392-E41EA896F227">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>C60D427C-E6BC-1D4B-EC8F-E49A6A8F363F</generatorID>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pass" id="D3126F46-167D-066F-E323-A328BC03BFE4">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>AEFC1FBD-6A2A-7BEE-746E-DF54BEBAAD3B</generatorID>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="1A44AB2A-A1FB-3D2A-704A-B503545F88B7">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>8AE179A7-8E3D-B2A6-DE47-14B2F6DB82D4</generatorID>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="22E4634D-2CA4-1396-31BB-B48B15F12EC7">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>46BE56E2-12CF-A2AC-131A-23A35FE9C9DE</generatorID>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="802E61E9-AF72-89C7-D09D-62C4F5C312C3" name="Persona_PK">
+<createdBy>Iker</createdBy>
+<createdTime>2018-04-24 22:13:49 UTC</createdTime>
+<generatorID>D5B9C842-4F80-6AF1-E1FD-FB319A4F9EAF</generatorID>
+<ownerDesignName>entidad-relacional-fuente</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA8CB808-186B-5172-51CB-8F637C63412D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
